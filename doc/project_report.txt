@@ -1,0 +1,10 @@
+Project status:
+
+Cache Test 1: Array access pattern test (same size; different ways of accessing data; avg. time per each data acces type)
+Cache Test 2: Array access times test  (dififerent sizes; iterations; avg. time per iteration)
+Cache Test 3: Array cache performance measurement (same size; calculates sum of array elements; time per each iteration)
+
+Added 2 types of trendlines:
+
+1. rolling window average (per 10 points) e.g. 1-10; 2-11; 3-12; etc.
+2. neighbourhood average (per 5 points) e.g. 1-5; 6-10; 11-15; etc.

@@ -1,0 +1,6 @@
+Strided Access Pattern: Strided access entails accessing a sequence of memory addresses with a consistent and uniform gap (stride) between each referenced address. It can be characterized by the interval between addresses. 
+
+
+CPU frequency scaling, also known as dynamic voltage and frequency scaling (DVFS), is a technology that allows a CPU to adjust its clock speed and voltage to match the workload, conserving power and reducing heat production during periods of low demand and maximizing performance when needed.
+
+

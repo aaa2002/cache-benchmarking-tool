@@ -1,0 +1,105 @@
+Anca.Hangan@cs.utcluj.ro
+Tudor.Coroian@cs.utcluj.ro / tudorcoroian17w@gmail.com
+1. project proposal
+2. Project plan
+3. Referenca list
+
+[1] author, title, 
+
+Documentation:
+
+1. Intro
+2. Related Work
+3. Analysis
+4. Design
+5. Implem
+6. Tests
+7. Conclusion
+Reference list/Bibliography
+
+Program de testare a performantelor de transfer pentru memoriile cache
+
+Se vor evidentia vitezele de transfer
+pentru date aflate in memoria cache, in
+memoria interna si in memoria virtuala
+Se vor trasa grafice in care se indica
+dependenta vitezei de transfer in raport
+diferiti parametri (ex: dimensiunea
+blocurilor transferate) (Java, C, C++, C#
+etc.)
+
+(test2.c merge, si test.cpp, da parca test2 e mai potrivit, dar ambele par useful)
+
+to compile:     clang test2.c test2.s -o test2
+to run:         ./test2
+
+
+
+
+FOR NEXT TIME
+
+Start the analysis and design part of the project
+Write or finalize the introduction and bibliographic study in the docs
+
+For the analysis:
+- describe functionalities
+- describe user-app interaction
+- describe mechanisms/algorithms that you will use or intend to use
+- everything should be described formally (diagrams, state machine diagrams, algorithm steps, flow diagrams)
+
+For the design part:
+- specify architecture
+- describe components
+- describe data models (if there are any)
+- interactions between components
+
+If we write code, we write status
+
+
+~~~~~~~~~~~~~~~~~~~~~~~
+AMD Ryzen™ 5 5600H 12 threads, 6 CPU Cores, clock 3.3 - 4.2GHz
+Zen 3 microarchitecture
+7 nm
+384 KB of L1 cache
+3MB of L2 cache
+16 MB of L3 cache
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+1. Cache Hierarchy
+Understand L1 L2 L3 cache
+
+2. Choose a Cache Benchmark Metric
+- Cache Hit Rate
+- Cache Miss Rate
+- Cache access latency
+- Memory access latency
+
+3. Avoid Compiler Optimizations:
+To ensure your benchmarks accurately reflect cache performance, disable compiler optimizations that may interfere with the measurements.
+Use compiler flags like -O0 to turn off optimization.
+
+4. Control Variables:
+Make sure your benchmark is deterministic and controls for variables that can affect the cache, 
+such as CPU frequency scaling or background processes.
+
+5. Measure Data Access Patterns:
+Design your benchmarks to measure cache performance with various data access patterns, 
+such as sequential access, random access, and strided access. 
+You can use different data structures and algorithms to test these patterns.
+
+=====================================================
+::::::::::::::::::::::::EXTRA::::::::::::::::::::::::
+=====================================================
+
+1. Cache Coherence
+Understand MESI protocol
+
+2. Cache Replacement
+Understand LRU, LFU, FIFO, Random
+
+3. Cache Prefetching
+Understand prefetching algorithms
+
+4. Cache Compression
+Understand compression algorithms
